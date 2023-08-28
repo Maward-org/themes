@@ -1,0 +1,364 @@
+/* ../../../../../tmp/tmp-18541-WcEw0uWPpGnS/themes/themes/public/css/green.bundle.css */
+:root {
+  --main-color:#f1f1f1;
+  --second-color: #0e2a43;
+  --third-color: #6dd4ac;
+  --widget-bg: #0e2a43 ;
+}
+[data-theme=green] {
+  --primary: var(--main-color);
+  --dt-primary-color: var(--main-color);
+  --blue-avatar-bg: var(--main-color);
+  --blue-avatar-color: var(--main-color);
+  --blue: var(--main-color) ;
+}
+[data-theme=green] .page-container,
+[data-theme=green] .layout-main-section {
+  background-color: #f1f1f1;
+}
+[data-theme=green] ul li a:hover {
+  background-color: var(--second-color);
+  color: #fff;
+}
+[data-theme=green] body {
+  font-size: 14px;
+  background-color: #F1F1F1;
+}
+[data-theme=green] a {
+  color: #666;
+  font-weight: 500;
+}
+[data-theme=green] .small,
+small {
+  font-size: 95%;
+}
+[data-theme=green] .h6.uppercase,
+h6.uppercase {
+  font-weight: 600;
+  font-size: 11.5px;
+}
+[data-theme=green] .standard-sidebar-item.selected {
+  background: linear-gradient(to left, #0e2a43, var(--main-color));
+}
+[data-theme=green] .standard-sidebar-item.selected a {
+  color: #fff;
+}
+[data-theme=green] .standard-sidebar-item.selected a svg {
+  fill: #fff !important;
+}
+[data-theme=green] .standard-sidebar-item:hover {
+  background-color: var(--second-color);
+}
+[data-theme=green] .standard-sidebar-item:hover a,
+[data-theme=green] .standard-sidebar-item:hover svg {
+  color: #fff !important;
+  stroke: white !important;
+  fill: white !important;
+}
+[data-theme=green] .navbar {
+  background-color: #204E84;
+  border: none !important;
+}
+[data-theme=green] .navbar-nav > li > a {
+  color: #fff !important;
+}
+[data-theme=green] .navbar-nav > li > a:hover {
+  color: #ddd !important;
+}
+[data-theme=green] .navbar-brand:hover {
+  color: #ddd !important;
+}
+[data-theme=green] .widget {
+  background-color: #f1f1f1;
+  border: none;
+  box-shadow: 0px 3px 12px 0px var(--widget-bg), 0 3px 3px -2px #461a7714;
+}
+[data-theme=green] .ce-block__content > .widget {
+  background-color: none !important;
+}
+[data-theme=green] .widget.shortcut-widget-box .widget-head .widget-title i {
+  color: #0e2a43 !important;
+}
+[data-theme=green] .widget.shortcut-widget-box .widget-head .widget-title:hover span {
+  color: #E2CB7A;
+}
+[data-theme=green] .widget-body .link-item:hover {
+  color: #fff;
+  background: var(--third-color);
+}
+[data-theme=green] .desk-sidebar .desk-sidebar-item {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--widget-bg);
+}
+[data-theme=green] .layout-side-section {
+  font-size: 14px;
+}
+[data-theme=green] .uppercase {
+  color: var(--third-color);
+}
+[data-theme=green] .dropdown-menu > li > a {
+  font-size: 13px;
+  color: #666;
+  font-weight: 500;
+}
+[data-theme=green] .awesomplete > ul > li[aria-selected=true] {
+  background-color: transparent;
+}
+[data-theme=green] .awesomplete > #awesomplete_list_1 > li:hover {
+  background: linear-gradient(to left, #0e2a43, var(--main-color));
+}
+[data-theme=green] .awesomplete > ul > li:hover a {
+  color: #fff;
+}
+[data-theme=green] .page-head {
+  border-bottom: none !important;
+  box-shadow: 0 1px 10px 1px rgba(115, 108, 203, 0.1);
+  background-color: #f1f1f1;
+}
+[data-theme=green] .page-title .title-text {
+  color: #0e2a43;
+  font-size: 22px;
+}
+[data-theme=green] .widget .widget-head .widget-title,
+[data-theme=green] .section-head,
+[data-theme=green] .comment-input-header {
+  font-size: 14px;
+  color: #0e2a43 !important;
+}
+[data-theme=green] .list-row-head {
+  background-color: #f3f6f9;
+  border-bottom: 1px solid #e4e4e4 !important;
+}
+[data-theme=green] .btn-primary {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+[data-theme=green] .control-label,
+.grid-heading-row {
+  font-size: 13px;
+}
+[data-theme=green] .btn-default:hover,
+[data-theme=green] .btn-default:focus,
+.btn-default.focus,
+[data-theme=green] .btn-default:active,
+.btn-default.active,
+[data-theme=green] .open > .dropdown-toggle.btn-default {
+  background-color: var(--third-color) !important;
+  color: #fff !important;
+}
+[data-theme=green] .btn-default:hover svg {
+  stroke: #fff !important;
+  fill: #fff !important;
+  color: #fff !important;
+}
+[data-theme=green] .btn-primary:hover,
+[data-theme=green] .btn-primary:focus,
+.btn-primary.focus,
+[data-theme=green] .btn-primary:active,
+.btn-primary.active,
+[data-theme=green] .open > .dropdown-toggle.btn-primary {
+  background-color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}
+[data-theme=green] .btn-secondary,
+[data-theme=green] .btn-secondary:focus,
+.btn-secondary.focus,
+[data-theme=green] .btn-secondary:active,
+.btn-secondary.active,
+[data-theme=green] .open > .dropdown-toggle.btn-secondary {
+  background-color: var(--third-color);
+  color: #fff;
+}
+[data-theme=green] .btn-secondary:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+[data-theme=green] .indicator-right.blue:after,
+.indicator.blue:before {
+  background: var(--third-color);
+}
+[data-theme=green] input[type=checkbox]:checked:before {
+  color: var(--third-color);
+}
+[data-theme=green] input[type=checkbox]:checked {
+  background: var(--main-color);
+}
+[data-theme=green] .frappe-control .ql-editor:not(.read-mode) {
+  background: var(--widget-bg);
+}
+[data-theme=green] .input-with-feedback,
+[data-theme=green] .like-disabled-input {
+  background-color: #e8eafcad;
+}
+[data-theme=green] .document-link-badge span {
+  background-color: var(--main-color) !important;
+  color: #fff;
+}
+[data-theme=green] .document-link-badge {
+  background-color: var(--widget-bg) !important;
+}
+[data-theme=green] .document-link button {
+  background: var(--third-color) !important;
+  color: #fff !important;
+}
+[data-theme=green] .document-link button svg {
+  fill: white;
+  stroke: white;
+}
+[data-theme=green] .indicator-pill.gray,
+[data-theme=green] .indicator-pill-right.gray,
+[data-theme=green] .indicator-pill-round.gray {
+  background: var(--third-color);
+  color: #fff;
+}
+[data-theme=green] .indicator-pill.yellow {
+  background: #e17a28;
+  color: white;
+}
+[data-theme=green] .indicator-pill.green,
+[data-theme=green] .indicator-pill-right.green,
+[data-theme=green] .indicator-pill-round.green {
+  color: var(--main-color);
+}
+[data-theme=green] .notifications-seen > svg {
+  stroke: #fff !important;
+  fill: #fff !important;
+}
+[data-theme=green] .notifications-seen > svg:hover {
+  stroke: #e17a28 !important;
+  fill: #e17a28 !important;
+}
+[data-theme=green] .icon {
+  stroke: #0e2a43 !important;
+  fill: none !important;
+}
+[data-theme=green] .search-bar > svg {
+  stroke: #02BBB6 !important;
+  fill: none !important;
+}
+[data-theme=green] #page-Workspaces {
+  background-color: #F1F1F1;
+}
+[data-theme=green] .custom-actions > .btn-default {
+  background: #E17A28 !important;
+  color: white !important;
+}
+[data-theme=green] .spacer {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+[data-theme=green] .icon-xs {
+  color: white;
+}
+[data-theme=green] .btn-xs:hover {
+  background-color: #e17a28 !important;
+}
+[data-theme=green] .widget-control > .filter-chart:hover {
+  background-color: #e17a28 !important;
+}
+[data-theme=green] .widget-control > .filter-chart {
+  background-color: #6dd4ac !important;
+}
+[data-theme=green] .standard-actions > .btn-primary {
+  background-color: #e17a28 !important;
+}
+[data-theme=green] .modal-content {
+  border: none !important;
+}
+[data-theme=green] .modal-content > .modal-header {
+  background-color: #0e2a43 !important;
+}
+[data-theme=green] .modal-content > .modal-footer {
+  background-color: #19a76d !important;
+}
+[data-theme=green] .page-form {
+  background-color: #19a76d !important;
+}
+[data-theme=green] .page-form input[type=text] {
+  color: white;
+}
+[data-theme=green] .page-form select[type=text] {
+  color: white;
+}
+[data-theme=green] .page-form > .filter-section button {
+  background-color: #e17a28 !important;
+  border: none !important;
+}
+[data-theme=green] .page-form > .filter-section > .btn-group .btn {
+  background-color: #e17a28 !important;
+  outline: none !important;
+}
+[data-theme=green] .btn-new-doc {
+  background-color: #e17a28 !important;
+}
+[data-theme=green] .btn-new-doc:hover {
+  background-color: #6dd4ac !important;
+}
+[data-theme=green] .page-actions > .custom-actions button {
+  background-color: #d1d1d1 !important;
+  color: rgb(0, 0, 0) !important;
+}
+[data-theme=green] .page-actions > .custom-actions button :hover {
+  background-color: #204E84 !important;
+  color: rgb(0, 0, 0) !important;
+}
+[data-theme=green] .page-actions > .standard-actions > .menu-btn-group button {
+  background-color: #d1d1d1 !important;
+  color: white !important;
+}
+[data-theme=green] .page-actions > .standard-actions > .menu-btn-group button:hover {
+  background-color: #204E84 !important;
+  color: white !important;
+}
+[data-theme=green] .page-actions > .standard-actions > .icon-btn {
+  background-color: #f1f1f1 !important;
+  color: white !important;
+}
+[data-theme=green] .form-tabs-list {
+  background-color: #204E84 !important;
+  color: white !important;
+}
+[data-theme=green] .nav-link.active {
+  color: #e17a28 !important;
+}
+[data-theme=green] .form-tabs-list a {
+  color: white !important;
+  background-color: #204E84 !important;
+}
+[data-theme=green] .form-tabs-list a:hover {
+  color: #e17a28 !important;
+  background-color: none !important;
+}
+[data-theme=green] .control-input {
+  color: white !important;
+  background-color: #19A66E !important;
+}
+[data-theme=green] .like-disabled-input {
+  color: white !important;
+  background-color: #6dd4be94 !important;
+}
+[data-theme=green] .grid-heading-row {
+  color: white !important;
+  background-color: #19A66E !important;
+}
+[data-theme=green] input[type=checkbox]:hover {
+  background-color: #e17a28;
+}
+[data-theme=green] input[type=checkbox]:checked {
+  background-color: #e17a28;
+}
+[data-theme=green] .awesomplete > #awesomplete_list_3 li:hover {
+  background-color: #FFFFFF !important;
+}
+[data-theme=green] .grid-field button {
+  background-color: #00A1ED !important;
+}
+[data-theme=green] .grid-field button:hover {
+  background-color: #204E84 !important;
+}
+[data-theme=green] .indicator-pill {
+  color: #e17a28 !important;
+}
+/*# sourceMappingURL=green.bundle.SGCAJC7N.css.map */

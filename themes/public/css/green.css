@@ -1,0 +1,238 @@
+.navbar {
+    height: 60px;
+    background: #04a194;
+    box-shadow: var(--shadow-sm);
+    padding: 0;
+}
+.widget.spacer{
+    background-color: #aee7d7 !important;
+
+}
+
+
+
+h3{
+    color:white!important;
+}
+
+/* header icon that where appear above side bar layout beside the main header  */
+.icon {
+    display: inline-block;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    fill: #fff0;
+    stroke: #11774b!important;
+}
+
+.page-head-content{
+    background-color: #4ec58687;
+    border-radius: 10px;
+}
+
+.layout-side-section {
+    background: #4ec58687;
+    border-radius: 10px;
+    padding: 10px;
+}
+.layout-main-section-wrapper {
+    background: #4ec58687;
+    border-radius: 10px;
+    margin: 0px 2px!important;
+    padding: 10px;
+    scrollbar-color:black!important;
+}
+.layout-main-section{
+    background-color:#aee7d7!important;
+    padding: 10px;
+    scrollbar-color:black!important;
+}
+.widget{
+    background-color: #effdef!important
+
+}
+/* most button in frappe or erpnext using this classs */
+.btn.btn-primary{
+    background-color: #0aa55c
+}
+.desk-sidebar .standard-sidebar-item a{
+    color: #ffffff;
+}
+.btn.btn-default{
+background-color: rgb(10,165,92);
+color: #fff;
+}
+
+
+/* elements in side bar layout when on  hover mode */
+.desk-sidebar .standard-sidebar-item:hover{
+    background-color: #d5efe7ab;
+}
+
+/* elements in side bar layout when on  select mode */
+.desk-sidebar .standard-sidebar-item.selected{
+    background-color: #d5efe7ab;
+}
+
+
+
+.widget-head{
+    color:#009b23;
+}
+
+.sidebar-item-icon{
+    color: white ;
+    stroke: white ;
+    /* background-color: black; */
+}
+
+.section-title{
+    color: white!important;
+}
+
+
+
+
+
+/* item in board inside workspace */
+.onboarding-step.active{
+    background-color: #4ce2b0 !important;
+    color: white
+}
+
+
+/* when create document some normal fields  */
+.form-control {
+   
+    background-color: #15cddd40;
+}
+
+.form-control:focus {
+    border: 1px solid aqua!important;
+    background-color: #82eaf340 !important;
+    color: white;
+}
+.form-control::placeholder{
+    color :white;
+}
+
+
+/* fields with link to another doctype when u create new document */
+.awesomplete .input-with-feedback {
+    background-color: #15cddd40;
+    color: var(--text-color);
+}
+
+/* fields that read only when u create new document */
+.like-disabled-input {
+    background-color: #15cddd40;
+
+}
+
+/* button for child table when u create new document */
+.btn-xs.btn.btn-secondary {
+    background-color: #2c72b9;
+    color: #f9fafa;
+}
+
+
+
+/* change checkbox in any place in app */
+
+input[type=checkbox]:checked {
+    background-color: #09ac52bd!important
+  } 
+
+
+
+/* child table when u create new document  */
+.grid-heading-row{
+    background: #6cd7d7c4;
+
+}
+.grid-footer{
+    background-color: #34ddac00;
+}
+
+.grid-empty{
+background-color: #2cdbdb4a;
+}
+
+.grid-body .rows .grid-row div:nth-child(odd)
+{
+    background-color:antiquewhite;
+}
+
+.row-check{
+    background-color: aquamarine!important;
+}
+
+
+
+/* main page for create new document */
+.form-tabs-list{
+    background-color:#34ddac40 ;    
+} 
+.form-tab-content{
+    background-color:#34ddac40 ;    
+
+}
+
+
+
+/* field text editor in create new document  */
+.ql-editor:not(.read-mode) {
+    background-color: #51a1f130!important;
+}
+
+
+/* droplist from link field in create new document  */
+.awesomplete > ul{
+    background-color: #18191a30!important;
+}
+
+/* in list view for doctype the page header form that u can pick filter or change list order */
+.page-form {
+    background-color: #AEE7D7;
+
+}
+
+/* select field when create document in doctype */
+select.form-control {
+    background-color: #15cddd40;
+    color: white
+
+}
+
+select.form-control::placeholder {
+color: white
+}
+
+/* filter button in any document */
+
+
+.filter-chart{
+    background-color:#2c72b9 !important;
+}
+.filter-chart > svg{
+
+    stroke: #d3d9dd!important;
+}
+
+
+.search-bar svg {
+    stroke: #d3d9dd!important;
+}
+
+
+
+
+
+:root, [data-theme=light] {
+    --fg-hover-color: #b5ffcb;
+
+}
