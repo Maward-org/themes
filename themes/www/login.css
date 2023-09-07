@@ -1,0 +1,24 @@
+
+.divider {
+    margin-top:4.5%;
+    width: 8vw;
+    transform: rotate(90deg);
+    height: 1px;
+
+}
+  
+.divider .shadow {
+    overflow: hidden;
+    height: 5px;
+    width: 410%;
+}
+  
+.divider .shadow:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px black;
+}

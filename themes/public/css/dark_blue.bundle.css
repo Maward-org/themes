@@ -17,6 +17,7 @@
 [data-theme=dark_blue] .layout-main-section {
     /* background-color: var(--widget-bg); */
     background-color: #f1f1f1;
+
 }
 [data-theme=dark_blue] ul li a:hover {
     background-color: var(--second-color);
