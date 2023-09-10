@@ -36,7 +36,7 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                     info: "Blue Theme"
                 },
                 {
-                    name:"dark_blue",
+                    name:"dark-blue",
                     label: "Dark-blue",
                     info: "Dark-blue Theme"
                 }
