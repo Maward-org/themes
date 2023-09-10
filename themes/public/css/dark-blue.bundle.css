@@ -759,6 +759,16 @@
   [data-theme=dark-blue] .col-lg-2.layout-side-section .form-sidebar.overlay-sidebar.hidden-xs.hidden-sm button:hover {
     background-color:  var(--sidebar-icon-color)!important;
   }
+
+ 
+  [data-theme=dark-blue] .input-group.search-bar.text-muted .awesomplete #awesomplete_list_1 span{
+    color:black!important;
+  }
+  
+  [data-theme=dark-blue] .dropdown-menu.dropdown-menu-right.show a{
+    color:black!important
+  }
+  
   
   
   
