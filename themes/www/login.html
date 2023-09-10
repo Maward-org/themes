@@ -61,7 +61,7 @@
 
 {% macro logo_section() %}
 <div class="page-card-head">
-	<img class="app-logo" src="{{ 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTARTtO2cudFCDkWUPGdIFDnnKQyM92OjntXEZzXu1XRkUOYNoa0gUkmE0N_zLwsdtdqig&usqp=CAU' }}">
+	<img class="app-logo" src= "{{ logo }}" >
 	<h4>{{ _('Login to {0}').format(app_name or _("Frappe")) }}</h4>
 </div>
 {% endmacro %}

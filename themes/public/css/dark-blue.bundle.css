@@ -146,7 +146,7 @@
     --header-for-create-doc-font-color:#fff;
     --input-read-only-color:#c1d6ef;
     --input-field-write:#329bcd;
-    --input-field-write-font-color:#fffffff7;
+    --input-field-write-font-color:black;
     --form-control:#f2f2f2;
     --form-control-write:rgba(255, 160, 10, 0.14);
     --form-grid-color:#bbbbbb;
@@ -166,6 +166,8 @@
     --avatar-font-color:#3e57aa;
     --widget-sup-title-color:#00A1ED;
     --list-view-page-header-icon:#00A1ED;
+    --input-write-font-color:#61add1b0; 
+    
   
   }
   
@@ -460,7 +462,7 @@
   
   }
   [data-theme=dark-blue] .filter-section use {
-    --icon-stroke:var(--sidebar-icon-color)!important;
+    --icon-stroke:var(--list-view-page-header-icon)!important;
     
   }
   
@@ -492,8 +494,8 @@
     color: white!important;
   }
   [data-theme=dark-blue] .input-with-feedback.form-control{
-    background-color: var(--card-pill-bg-color)!important;
-    color: var(--input-field-write-font-color)!important;
+    background-color: var(--input-write-font-color)!important;
+    color: var(--black-colorr)!important;
   }
   [data-theme=dark-blue] .form-group .control-input-wrapper .control-input .input-with-feedback.form-control::placeholder{
     color: white!important;
@@ -686,6 +688,13 @@
     color: var(--white-color)!important;
   }
   [data-theme=dark-blue] .widget.shortcut-widget-box .widget-head .widget-control .indicator-pill.ellipsis.gray::before{
+    background: var(--white-color)!important;
+  }
+  [data-theme=dark-blue] .widget-head .widget-control .indicator-pill.grey{
+    background: var(--sidebar-icon-color)!important;
+    color: var(--white-color)!important;
+  }
+  [data-theme=dark-blue] .widget-head .widget-control .indicator-pill.grey::before{
     background: var(--white-color)!important;
   }
   [data-theme=dark-blue] .filter-chart.btn.btn-xs.pull-right{
