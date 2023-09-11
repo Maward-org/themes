@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap";
 
-/* ../../../../../tmp/tmp-182983-NG8hos5QvSx1/themes/themes/public/css/dark-blue.bundle.css */
+/* ../../../../../tmp/tmp-340310-6zpaUj88jbTk/themes/themes/public/css/dark-blue.bundle.css */
 * {
   font-family: "Almarai", sans-serif !important;
 }
@@ -195,7 +195,7 @@
   top: var(--page-head-height);
 }
 [data-theme=dark-blue] .navbar {
-  background: linear-gradient(to right, var(--navbar-first-color), var(--navbar-second-color)) !important;
+  background: linear-gradient(to left, var(--navbar-first-color), var(--navbar-second-color)) !important;
   height: var(--navbar-height);
 }
 [data-theme=dark-blue] .nav.navbar-nav.d-none.d-sm-flex .disabled {
@@ -217,14 +217,14 @@
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-  margin-left: .3em;
+  margin-right: .3em;
   display: inline-block;
   font-size: 24px;
   transition: 0.2s;
   position: relative;
   top: 3px;
   content: "\f105";
-  margin-left: 10px;
+  margin-right: 10px;
 }
 [data-theme=dark-blue] .nav-link.notifications-icon.text-muted:hover {
   fill: var(--non-color-class) !important;
@@ -450,7 +450,7 @@
   border-bottom: 1px solid var(--primary-color);
 }
 [data-theme=dark-blue] .grid-row > .row .col {
-  border-left: 1px solid var(--row-col-color);
+  border-right: 1px solid var(--row-col-color);
 }
 [data-theme=dark-blue] .head-title,
 .form-section .section-head,
@@ -647,4 +647,4 @@
 [data-theme=dark-blue] .dropdown-menu.dropdown-menu-right.show a {
   color: black !important;
 }
-/*# sourceMappingURL=dark-blue.bundle.RCUBRWPV.css.map */
+/*# sourceMappingURL=dark-blue.bundle.DH6FG4LH.css.map */

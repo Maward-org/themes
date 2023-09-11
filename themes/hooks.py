@@ -9,12 +9,6 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
-fixtures=[{"dt":("Property Setter"),
-                 "filters":[
-                     ["doc_type","in",["User"]]
-                 ]}
-                 ]
 # include js, css files in header of desk.html
 app_include_css = "themes.bundle.css"
 app_include_js = ["themes.bundle.js"]
@@ -220,3 +214,11 @@ override_whitelisted_methods = {
 # auth_hooks = [
 #	"themes.auth.validate"
 # ]
+
+fixtures=[
+        {"dt":("Property Setter"),
+        "filters":[
+                     [ "doc_type","in",("User") ],
+                     [ "field_name" , "in" , ("desk_theme")]
+        ]}
+]
