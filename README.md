@@ -110,9 +110,9 @@ We welcome contributions from the community! Please follow the contribution guid
 
 ---
 
-## 📂 More Apps by Our Team
+## 📂 More Apps by IT Systematic
 
-Explore other powerful apps developed by our team:
+Explore other powerful apps developed by IT Systematic:
 
 - **[Optima ZATCA](https://github.com/itsystematic/optima_zatca):** A comprehensive app for managing ZATCA compliance in Saudi Arabia.
 - **[Optima HR](https://github.com/itsystematic/optima-hr):** Transform HR operations with a powerful ERPNext-powered solution.
