@@ -2,7 +2,8 @@
 
 
 * {
-  font-family: 'Almarai', sans-serif !important;
+  /* font-family: 'Almarai', sans-serif !important; */
+  font-family: var(--font-stack);
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -472,7 +473,7 @@ input:focus{
 
 /* header list document section action bar and filter  */
 [data-theme=green] .input-xs {
-    height: 30px!important;
+    height: 24px!important;
     padding:5px!important
 }
 [data-theme=green] .page-form.flex {
