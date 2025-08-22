@@ -1,8 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap";
 
-/* ../../../../../tmp/tmp-340310-KvZ7IvkNM5TO/themes/themes/public/css/dark-blue.bundle.css */
+/* ../../../../../tmp/tmp-195865-cN96mnoRAQ0h/themes/themes/public/css/dark-blue.bundle.css */
 * {
-  font-family: "Almarai", sans-serif !important;
+  font-family: var(--font-stack);
 }
 [data-theme=dark-blue] *::-webkit-scrollbar {
   width: 8px;
@@ -110,7 +110,7 @@
   --notification-font-color:white;
   --title-color:#204E84;
   --sidebar-title:#204E84;
-  --sidebar-icon-color:#19A66E;
+  --sidebar-icon-color:#204E84;
   --sidebar-icon-selected-color:#ffffff;
   --sidebar-font-selected-color:#fff;
   --element-pick-sidebar-bg-color:#204E84;
@@ -195,7 +195,7 @@
   top: var(--page-head-height);
 }
 [data-theme=dark-blue] .navbar {
-  background: linear-gradient(to right, var(--navbar-first-color), var(--navbar-second-color)) !important;
+  background: linear-gradient(to left, var(--navbar-first-color), var(--navbar-second-color)) !important;
   height: var(--navbar-height);
 }
 [data-theme=dark-blue] .nav.navbar-nav.d-none.d-sm-flex .disabled {
@@ -217,14 +217,14 @@
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-  margin-left: .3em;
+  margin-right: .3em;
   display: inline-block;
   font-size: 24px;
   transition: 0.2s;
   position: relative;
   top: 3px;
   content: "\f105";
-  margin-left: 10px;
+  margin-right: 10px;
 }
 [data-theme=dark-blue] .nav-link.notifications-icon.text-muted:hover {
   fill: var(--non-color-class) !important;
@@ -362,7 +362,7 @@
   color: var(--title-color);
 }
 [data-theme=dark-blue] .input-xs {
-  height: 30px !important;
+  height: 24px !important;
   padding: 5px !important;
 }
 [data-theme=dark-blue] .page-form.flex {
@@ -406,9 +406,6 @@
 [data-theme=dark-blue] .form-group .control-input-wrapper .control-input .input-with-feedback.form-control::-moz-placeholder {
   color: white !important;
 }
-[data-theme=dark-blue] .form-group .control-input-wrapper .control-input .input-with-feedback.form-control:-ms-input-placeholder {
-  color: white !important;
-}
 [data-theme=dark-blue] .form-group .control-input-wrapper .control-input .input-with-feedback.form-control::placeholder {
   color: white !important;
 }
@@ -450,7 +447,7 @@
   border-bottom: 1px solid var(--primary-color);
 }
 [data-theme=dark-blue] .grid-row > .row .col {
-  border-left: 1px solid var(--row-col-color);
+  border-right: 1px solid var(--row-col-color);
 }
 [data-theme=dark-blue] .head-title,
 .form-section .section-head,
@@ -647,4 +644,4 @@
 [data-theme=dark-blue] .dropdown-menu.dropdown-menu-right.show a {
   color: black !important;
 }
-/*# sourceMappingURL=dark-blue.bundle.G4HKOQJP.css.map */
+/*# sourceMappingURL=dark-blue.bundle.QUY2R5UJ.css.map */

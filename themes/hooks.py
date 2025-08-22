@@ -11,7 +11,7 @@ app_license = "MIT"
 # ------------------
 # include js, css files in header of desk.html
 app_include_css = ["themes.bundle.css", "/assets/themes/css/css-rtl/translations_ar_eg.css"]
-app_include_js = ["themes.bundle.js"]
+app_include_js = ["themes.bundle.js","language_switcher.bundle.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/themes/css/themes.css"

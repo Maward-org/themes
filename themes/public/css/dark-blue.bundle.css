@@ -131,7 +131,7 @@
 
     /* title color for side bar text  00A1ED*/
     --sidebar-title:#204E84;
-    --sidebar-icon-color:#19A66E;  
+    --sidebar-icon-color:#204E84;  
     --sidebar-icon-selected-color:#ffffff;
     --sidebar-font-selected-color:#fff;
     --element-pick-sidebar-bg-color:#204E84;

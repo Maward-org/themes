@@ -517,7 +517,7 @@
 [data-theme=purple] span.notifications-seen use,
 [data-theme=purple] symbol#icon-small-down{
   fill: var(--non-color-class)!important;
-  stroke: var(--hover-font-color)!important;
+  /* stroke: var(--hover-font-color)!important; */
   --icon-stroke: var(--sidebar-icon-color)!important;
 
 

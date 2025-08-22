@@ -1,8 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap";
 
-/* ../../../../../tmp/tmp-340310-KvZ7IvkNM5TO/themes/themes/public/css/purple.bundle.css */
+/* ../../../../../tmp/tmp-195865-cN96mnoRAQ0h/themes/themes/public/css/purple.bundle.css */
 * {
-  font-family: "Almarai", sans-serif !important;
+  font-family: var(--font-stack);
 }
 [data-theme=purple] *::-webkit-scrollbar {
   width: 8px;
@@ -189,7 +189,7 @@
   top: var(--page-head-height);
 }
 [data-theme=purple] .navbar {
-  background: linear-gradient(to right, var(--navbar-first-color), var(--navbar-second-color)) !important;
+  background: linear-gradient(to left, var(--navbar-first-color), var(--navbar-second-color)) !important;
   height: var(--navbar-height);
 }
 [data-theme=purple] .navbar a {
@@ -208,14 +208,14 @@
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-  margin-left: .3em;
+  margin-right: .3em;
   display: inline-block;
   font-size: 24px;
   transition: 0.2s;
   position: relative;
   top: 3px;
   content: "\f105";
-  margin-left: 10px;
+  margin-right: 10px;
 }
 [data-theme=purple] .nav-link.notifications-icon.text-muted:hover {
   fill: var(--non-color-class) !important;
@@ -343,7 +343,7 @@
   color: var(--title-color);
 }
 [data-theme=purple] .input-xs {
-  height: 30px !important;
+  height: 24px !important;
   padding: 5px !important;
 }
 [data-theme=purple] .page-form.flex {
@@ -386,9 +386,6 @@
 [data-theme=purple] .form-group .control-input-wrapper .control-input .input-with-feedback.form-control::-moz-placeholder {
   color: white !important;
 }
-[data-theme=purple] .form-group .control-input-wrapper .control-input .input-with-feedback.form-control:-ms-input-placeholder {
-  color: white !important;
-}
 [data-theme=purple] .form-group .control-input-wrapper .control-input .input-with-feedback.form-control::placeholder {
   color: white !important;
 }
@@ -418,7 +415,6 @@
 [data-theme=purple] span.notifications-seen use,
 [data-theme=purple] symbol#icon-small-down {
   fill: var(--non-color-class) !important;
-  stroke: var(--hover-font-color) !important;
   --icon-stroke: var(--sidebar-icon-color) !important;
 }
 [data-theme=purple] .form-grid {
@@ -432,7 +428,7 @@
   border-bottom: 1px solid var(--primary-color);
 }
 [data-theme=purple] .grid-row > .row .col {
-  border-left: 1px solid var(--row-col-color);
+  border-right: 1px solid var(--row-col-color);
 }
 [data-theme=purple] .head-title,
 .form-section .section-head,
@@ -573,4 +569,4 @@
 [data-theme=purple] .page-form .label-area {
   color: white !important;
 }
-/*# sourceMappingURL=purple.bundle.XGKPH2C6.css.map */
+/*# sourceMappingURL=purple.bundle.IULM5U7W.css.map */
